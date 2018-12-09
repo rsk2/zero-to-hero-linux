@@ -1,0 +1,31 @@
+If you know these basic commands, you can start using a linux server. Its very easy!
+
+See file contents:
+cat filename: reads file sequentially and writes it to standard output
+tail -f filename : this shows you the last few modifications to the file and updates it realtime
+tail -100 filename: shows the last 100 lines of a file
+
+See file names in directory:
+ls : list all files in directory
+ls -lt: list all files in directory in descending order of last modified date
+
+Write to files:
+sudo nano filename: opens file in nano editor with admin priveleges
+
+Remove file:
+sudo rm filename: removes file from directory with admin priveleges
+
+Git commands:
+git pull
+git checkout branchname: checks out specified branch
+git checkout -- filename: discards changes and resets file to branch version
+git add filename: adds file to staging
+git status: shows current status of files added, modified or deleted. 
+
+Environment commands:
+Ctl+Z: stop or cancel a command
+
+Tips:
+Tab: after typing a few characters of filename if you click on Tab key, linux will complete the file name for you if it can uniquely identify the file
+WinSCP: Can be used to transfer files between local windows computer and remote server
+
