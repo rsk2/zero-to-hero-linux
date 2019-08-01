@@ -24,6 +24,7 @@ git status: shows current status of files added, modified or deleted.
 
 Environment commands:
 Ctl+Z: stop or cancel a command
+ps -p <PID>: If the process is alive then, this will return the process id with the time and command.
 
 Tips:
 Tab: after typing a few characters of filename if you click on Tab key, linux will complete the file name for you if it can uniquely identify the file
