@@ -3,7 +3,7 @@ If you know these basic commands, you can start using a linux server. Its very e
 See file contents:
 cat filename: reads file sequentially and writes it to standard output
 tail -f filename : this shows you the last few modifications to the file and updates it realtime
-tail -100 filename: shows the last 100 lines of a file
+tail -100 filename: shows the last 100 lines of a file. Replace 100 with any number
 
 See file names in directory:
 ls : list all files in directory
@@ -25,6 +25,7 @@ git status: shows current status of files added, modified or deleted.
 Environment commands:
 Ctl+Z: stop or cancel a command
 ps -p <PID>: If the process is alive then, this will return the process id with the time and command.
+sudo screen -m -L -d python3 pythonfile.py : creates a background process pythonfile.py and creates a log for it in screenlog.0 in same folder
 
 Tips:
 Tab: after typing a few characters of filename if you click on Tab key, linux will complete the file name for you if it can uniquely identify the file
